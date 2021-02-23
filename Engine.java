@@ -69,8 +69,7 @@ public class Engine {
   // Return false if not
   public boolean checkTie() {
 
-    
-    return true;
+    return true; //version
     
   }
 
