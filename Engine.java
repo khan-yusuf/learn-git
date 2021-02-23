@@ -52,14 +52,27 @@ public class Engine {
   // TODO: Complete this method
   // Player is either 0 or 1, row and column are valid and empty
   public void playerTurn(int player, int row, int col) {
-    return;
+    
+	  if(player == 0) {
+    	row ++;
+    	col ++;
+    }
+    else {
+    	row += col;
+    	
+    }
+	//not the correct method (for git use only)
   }
 
   // TODO: Complete this method
   // Return true if the board is full
   // Return false if not
   public boolean checkTie() {
-    return true;
+    
+	  if(board[1][2] == "X") {
+		  return false;
+	  }
+	  return true; //for git use only
   }
 
   public int checkWinner() {
