@@ -68,11 +68,10 @@ public class Engine {
   // Return true if the board is full
   // Return false if not
   public boolean checkTie() {
+
     
-	  if(board[1][2] == "X") {
-		  return false;
-	  }
-	  return true; //for git use only
+    return true;
+    
   }
 
   public int checkWinner() {
